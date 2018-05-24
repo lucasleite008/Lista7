@@ -13,7 +13,6 @@ public class Padawan extends Jedi {
 	public boolean isConstroiSabre() {
 		return constroiSabre;
 	}
-
 	public void setConstroiSabre(boolean constroiSabre) {
 		this.constroiSabre = constroiSabre;
 	}

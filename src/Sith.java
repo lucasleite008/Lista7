@@ -8,13 +8,13 @@ public class Sith extends Ser{
 	
 	public Sith(String sexo, String especie, String dataNascimento, String planetaNatal, String nome, String jediSith,
 			String midiChlorians, boolean telepatia, boolean telecinese, boolean persuasao, int percentualRaiva,
-			String nome2) {
+			String nomeNovo) {
 		super(sexo, especie, dataNascimento, planetaNatal, nome, jediSith, midiChlorians);
 		this.telepatia = telepatia;
 		this.telecinese = telecinese;
 		this.persuasao = persuasao;
 		this.percentualRaiva = percentualRaiva;
-		nome = nome2;
+		nome = nomeNovo;
 	}
 	
 	public boolean isTelepatia() {

@@ -6,6 +6,15 @@ public class Planeta {
 	private String diametro;
 	private String regime;
 	
+	public Planeta(String nome, String cor, String sistema, String diametro, String regime) {
+		super();
+		this.nome = nome;
+		this.cor = cor;
+		this.sistema = sistema;
+		this.diametro = diametro;
+		this.regime = regime;
+	}
+	
 	public String getNome() {
 		return nome;
 	}

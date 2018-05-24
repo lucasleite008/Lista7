@@ -1,10 +1,21 @@
 
-public class Sith {
+public class Sith extends Ser{
 	private boolean telepatia;
 	private boolean telecinese;
 	private boolean persuasao;
 	private int percentualRaiva;
 	private String nome;
+	
+	public Sith(String sexo, String especie, String dataNascimento, String planetaNatal, String nome, String jediSith,
+			String midiChlorians, boolean telepatia, boolean telecinese, boolean persuasao, int percentualRaiva,
+			String nome2) {
+		super(sexo, especie, dataNascimento, planetaNatal, nome, jediSith, midiChlorians);
+		this.telepatia = telepatia;
+		this.telecinese = telecinese;
+		this.persuasao = persuasao;
+		this.percentualRaiva = percentualRaiva;
+		nome = nome2;
+	}
 	
 	public boolean isTelepatia() {
 		return telepatia;

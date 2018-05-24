@@ -5,6 +5,14 @@ public class Academia {
 	private String planeta;
 	private String conselho;
 	
+	public Academia(String ordem, String nome, String planeta, String conselho) {
+		super();
+		this.ordem = ordem;
+		this.nome = nome;
+		this.planeta = planeta;
+		this.conselho = conselho;
+	}
+	
 	public String getOrdem() {
 		return ordem;
 	}

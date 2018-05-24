@@ -5,6 +5,14 @@ public class Clan {
 	private String dataCriacao;
 	private String dataFim;
 	
+	public Clan(String nome, String treinador, String dataCriacao, String dataFim) {
+		super();
+		this.nome = nome;
+		this.treinador = treinador;
+		this.dataCriacao = dataCriacao;
+		this.dataFim = dataFim;
+	}
+	
 	public String getNome() {
 		return nome;
 	}

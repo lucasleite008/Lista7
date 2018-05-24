@@ -8,6 +8,18 @@ public class Ser {
 	private String jediSith;
 	private String midiChlorians;
 	
+	public Ser(String sexo, String especie, String dataNascimento, String planetaNatal, String nome, String jediSith,
+			String midiChlorians) {
+		super();
+		this.sexo = sexo;
+		this.especie = especie;
+		this.dataNascimento = dataNascimento;
+		this.planetaNatal = planetaNatal;
+		this.nome = nome;
+		this.jediSith = jediSith;
+		this.midiChlorians = midiChlorians;
+	}
+	
 	public String getSexo() {
 		return sexo;
 	}

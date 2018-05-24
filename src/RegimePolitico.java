@@ -7,6 +7,17 @@ public class RegimePolitico {
 	private String planetas;
 	private String chefe;
 	
+	public RegimePolitico(String dataInicio, String dataFinal, String capital, String nome, String planetas,
+			String chefe) {
+		super();
+		this.dataInicio = dataInicio;
+		this.dataFinal = dataFinal;
+		this.capital = capital;
+		this.nome = nome;
+		this.planetas = planetas;
+		this.chefe = chefe;
+	}
+	
 	public String getDataInicio() {
 		return dataInicio;
 	}

@@ -4,7 +4,6 @@ public class Jedi extends Ser {
 	private boolean telecinese;
 	private boolean persuasao;
 	private int percentualPaz;
-	private String nome;
 	
 	public boolean isTelepatia() {
 		return telepatia;
@@ -29,11 +28,5 @@ public class Jedi extends Ser {
 	}
 	public void setPercentualPaz(int percentualPaz) {
 		this.percentualPaz = percentualPaz;
-	}
-	public String getNome() {
-		return nome;
-	}
-	public void setNome(String nome) {
-		this.nome = nome;
 	}
 }

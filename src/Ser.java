@@ -5,8 +5,8 @@ public class Ser {
 	private String dataNascimento;
 	private String planetaNatal;
 	private String nome;
-	private String jediSith;
-	private String midiChlorians;
+	private String jediSith; // 'Jedi' se Jedi, 'Sith' se Sith, '' se nenhum dos dois
+	private String midiChlorians; // 'Alta' se alta quantidade, 'Baixa' se baixa quantidade
 	
 	public Ser(String sexo, String especie, String dataNascimento, String planetaNatal, String nome, String jediSith,
 			String midiChlorians) {

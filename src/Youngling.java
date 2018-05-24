@@ -1,7 +1,7 @@
 
 public class Youngling extends Jedi {
-	private String clan;
-	private boolean colheita;
+	private String clan; // Pertencente de qual clã
+	private boolean colheita; // Ja realizou a colheita
 	
 	public Youngling(String sexo, String especie, String dataNascimento, String planetaNatal, String nome,
 			String jediSith, String midiChlorians, boolean telepatia, boolean telecinese, boolean persuasao,

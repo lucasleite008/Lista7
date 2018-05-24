@@ -1,8 +1,8 @@
 
 public class Jedi extends Ser {
-	private boolean telepatia;
-	private boolean telecinese;
-	private boolean persuasao;
+	private boolean telepatia; // Poderes
+	private boolean telecinese; // Poderes
+	private boolean persuasao; //Poderes
 	private int percentualPaz;
 
 	public Jedi(String sexo, String especie, String dataNascimento, String planetaNatal, String nome, String jediSith,

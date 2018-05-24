@@ -1,6 +1,6 @@
 
 public class Padawan extends Jedi {
-	private boolean constroiSabre;
+	private boolean constroiSabre; // Ja consegue construir o sabre
 
 	public Padawan(String sexo, String especie, String dataNascimento, String planetaNatal, String nome,
 			String jediSith, String midiChlorians, boolean telepatia, boolean telecinese, boolean persuasao,

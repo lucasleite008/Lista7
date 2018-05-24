@@ -3,9 +3,9 @@ public class RegimePolitico {
 	private String dataInicio;
 	private String dataFinal;
 	private String capital;
-	private String nome;
-	private String planetas;
-	private String chefe;
+	private String nome; // ex: República Galáctica
+	private String planetas; // ex: Coruscant, Shili
+	private String chefe; // ex: Tarsus Valorum
 	
 	public RegimePolitico(String dataInicio, String dataFinal, String capital, String nome, String planetas,
 			String chefe) {

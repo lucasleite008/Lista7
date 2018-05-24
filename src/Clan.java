@@ -1,7 +1,7 @@
 
 public class Clan {
-	private String nome;
-	private String treinador;
+	private String nome; // ex: Clã do Urso
+	private String treinador; // ex: Mestre Yoda
 	private String dataCriacao;
 	private String dataFim;
 	

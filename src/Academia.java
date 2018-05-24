@@ -1,9 +1,9 @@
 
 public class Academia {
-	private String ordem;
-	private String nome;
+	private String ordem; // Sith ou Jedi
+	private String nome; // ex: Academia Sith Korriban
 	private String planeta;
-	private String conselho;
+	private String conselho; // ex: Conselho do Templo de Coruscant
 	
 	public Academia(String ordem, String nome, String planeta, String conselho) {
 		super();

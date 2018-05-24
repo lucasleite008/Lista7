@@ -1,10 +1,10 @@
 
 public class Planeta {
-	private String nome;
-	private String cor;
-	private String sistema;
+	private String nome; // ex: Coruscant
+	private String cor; // ex: metálica
+	private String sistema; // ex: Coruscant
 	private String diametro;
-	private String regime;
+	private String regime; // ex: República Galáctica
 	
 	public Planeta(String nome, String cor, String sistema, String diametro, String regime) {
 		super();
